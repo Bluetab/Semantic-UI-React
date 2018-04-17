@@ -10,6 +10,7 @@
     "dist",
     "index.d.ts"
   ],
+  "sideEffects": false,
   "scripts": {
     "docs": "gulp docs",
     "build": "yarn build:commonjs && yarn build:es && yarn build:umd && yarn build:docs",
